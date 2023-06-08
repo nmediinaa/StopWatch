@@ -1,0 +1,42 @@
+main {
+    text-align: center;
+
+}
+
+button {
+    height: 3em;
+    width: 9em;
+    border: none;
+    font-size: 0.7em;
+    color: var(--preto);
+
+}
+
+
+
+button:hover {
+    cursor: pointer;
+}
+
+.container_btn {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.btn_start {
+    background-color: green;
+}
+
+.btn_stop {
+    background-color: red;
+    order: 3;
+}
+
+.btn_reset {
+    background-color: grey;
+}
+
+.btn_lap {
+    margin-top: 2em;
+}

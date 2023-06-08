@@ -1,0 +1,24 @@
+@import url(../styles/header.css);
+@import url(../styles/main.css);
+
+:root {
+    --preto: black;
+    --branco: white;
+
+
+    --fonte-principal: 'Raleway', sans-serif;
+}
+
+
+body {
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 2em;
+
+}
+
+main {
+    margin-left: 4em;
+
+}
